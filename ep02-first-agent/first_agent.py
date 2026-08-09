@@ -1,18 +1,12 @@
 """
 first_agent.py — EP02: Build Your First Azure AI Agent
 Series: Agentic AI on Azure
-
-.env file (same folder):
-  FOUNDRY_PROJECT_ENDPOINT=https://<account>.services.ai.azure.com/api/projects/<project>
-  FOUNDRY_MODEL_NAME=gpt-4.1
-
-Place sales_data.csv in the same folder for the CSV analysis step.
 """
 
 # import standard libraries
 import os 
 from dotenv import load_dotenv 
-load_dotenv() 
+load_dotenv()
 
 from azure.identity import AzureCliCredential
 from azure.ai.projects import AIProjectClient
@@ -27,7 +21,7 @@ def main() -> None:
     project = AIProjectClient(
         endpoint=os.environ["FOUNDRY_PROJECT_ENDPOINT"],
             credential=AzureCliCredential(), 
-   
+ 
     )
     openai_client = project.get_openai_client() 
     model = os.environ["FOUNDRY_MODEL_NAME"]
@@ -35,7 +29,6 @@ def main() -> None:
     print(m.type)
     
     # ── Step 2: Create the agent WITH Code Interpreter ─────────────────────
-
     agent = project.agents.create_version(
         agent_name="first-agent-demo",
         definition=PromptAgentDefinition(
@@ -53,17 +46,17 @@ def main() -> None:
                 "If a request is ambiguous, ask for clarification. "
                 "Keep responses concise."
             ),
-            tools=[CodeInterpreterTool()],
+            tools=[CodeInterpreterTool()], 
         ),
     )
     print(f"Agent created: {agent.name}  (version {agent.version})")
 
-    agent_ref = {"type": "agent_reference", "name": agent.name, "version": agent.version} # reference to the created agent
+    agent_ref = {"type": "agent_reference", "name": agent.name, "version": agent.version} 
 
       # ── Step 3: Get an OpenAI client bound to your Foundry project ──────────
     conversation = openai_client.conversations.create()  
 
-    # ── Step 5: CSV analysis — upload the file, analyze it ────────────────
+    # ── Step 5: CSV analysis — upload the file, analyze it ─────────────────
     csv_path = "sales_data.csv"
     if os.path.exists(csv_path):
         print("=" * 60)
@@ -97,6 +90,18 @@ def main() -> None:
         print(f"Agent: {r2.output_text}\n")
     else:
         print(f"(Skipping CSV demo — {csv_path} not found in this folder.)\n")
+
+    r3 = openai_client.responses.create(
+        conversation=conversation.id,
+        extra_body={"agent_reference": agent_ref},
+        input=q3,
+    )
+    print(f"Agent: {r3.output_text}\n")
+
+    print("-" * 60)
+    print("Done. Same agent as the portal — now in Python.")
+    print("-" * 60)
+
 
 def _show_tools(response) -> None:
     """Print which tools the agent used, so the round-trip is visible."""

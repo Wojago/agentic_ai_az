@@ -1,0 +1,121 @@
+Date,Product,Region,Sales Rep,Quantity,Unit Price,Total Sales
+2026-01-01,Terraform Landing Zone Template,West US,L. Chen,17,250.0,4250.0
+2026-01-03,AI Agent Starter Kit,West Europe,A. Bekele,20,150.0,3000.0
+2026-01-04,Azure AI Foundry Credits,West US,S. Mengistu,25,1200.0,30000.0
+2026-01-05,Azure AI Foundry Credits,Central US,S. Mengistu,12,1200.0,14400.0
+2026-01-06,Zero Trust Consulting Package,West US,A. Bekele,19,3500.0,66500.0
+2026-01-07,Zero Trust Consulting Package,Central US,J. Carter,13,3500.0,45500.0
+2026-01-08,Azure AI Foundry Credits,West US,L. Chen,7,1200.0,8400.0
+2026-01-12,Zero Trust Consulting Package,West Europe,A. Bekele,16,3500.0,56000.0
+2026-01-13,Zero Trust Consulting Package,North Europe,S. Mengistu,4,3500.0,14000.0
+2026-01-14,Azure AI Foundry Credits,North Europe,P. Okafor,2,1200.0,2400.0
+2026-01-15,Zero Trust Consulting Package,East US,A. Bekele,19,3500.0,66500.0
+2026-01-16,Bicep Automation Toolkit,East US,M. Rodriguez,13,89.99,1169.87
+2026-01-16,Azure DevOps Retainer,East US,L. Chen,2,2000.0,4000.0
+2026-01-17,Zero Trust Consulting Package,Southeast Asia,J. Carter,19,3500.0,66500.0
+2026-01-17,Cloud Security Audit,West Europe,M. Rodriguez,13,1800.0,23400.0
+2026-01-18,Azure VM Reserved Instance,West US,J. Carter,22,450.0,9900.0
+2026-01-18,Terraform Landing Zone Template,Southeast Asia,L. Chen,12,250.0,3000.0
+2026-01-19,Bicep Automation Toolkit,Southeast Asia,S. Mengistu,18,89.99,1619.82
+2026-01-19,Azure VM Reserved Instance,East US,A. Bekele,8,450.0,3600.0
+2026-01-19,Zero Trust Consulting Package,Central US,S. Mengistu,17,3500.0,59500.0
+2026-01-20,Bicep Automation Toolkit,East US,J. Carter,18,89.99,1619.82
+2026-01-21,Zero Trust Consulting Package,North Europe,J. Carter,4,3500.0,14000.0
+2026-01-28,Terraform Landing Zone Template,West Europe,L. Chen,21,250.0,5250.0
+2026-01-28,Bicep Automation Toolkit,Central US,L. Chen,9,89.99,809.91
+2026-01-29,Terraform Landing Zone Template,West US,M. Rodriguez,14,250.0,3500.0
+2026-01-30,Terraform Landing Zone Template,Southeast Asia,J. Carter,25,250.0,6250.0
+2026-01-31,Zero Trust Consulting Package,East US,J. Carter,8,3500.0,28000.0
+2026-02-01,Terraform Landing Zone Template,Central US,P. Okafor,17,250.0,4250.0
+2026-02-02,AI Agent Starter Kit,West US,J. Carter,18,150.0,2700.0
+2026-02-06,Terraform Landing Zone Template,West US,P. Okafor,5,250.0,1250.0
+2026-02-07,Azure VM Reserved Instance,East US,M. Rodriguez,25,450.0,11250.0
+2026-02-09,Bicep Automation Toolkit,North Europe,L. Chen,22,89.99,1979.78
+2026-02-10,AI Agent Starter Kit,Southeast Asia,J. Carter,18,150.0,2700.0
+2026-02-11,AI Agent Starter Kit,Central US,P. Okafor,13,150.0,1950.0
+2026-02-13,Azure AI Foundry Credits,West Europe,P. Okafor,10,1200.0,12000.0
+2026-02-15,Azure DevOps Retainer,Southeast Asia,P. Okafor,14,2000.0,28000.0
+2026-02-15,Terraform Landing Zone Template,East US,L. Chen,2,250.0,500.0
+2026-02-17,Azure AI Foundry Credits,East US,P. Okafor,20,1200.0,24000.0
+2026-02-18,Azure AI Foundry Credits,Southeast Asia,M. Rodriguez,4,1200.0,4800.0
+2026-02-20,Bicep Automation Toolkit,West US,L. Chen,12,89.99,1079.88
+2026-02-23,Terraform Landing Zone Template,Southeast Asia,P. Okafor,23,250.0,5750.0
+2026-02-23,Azure DevOps Retainer,Southeast Asia,P. Okafor,7,2000.0,14000.0
+2026-02-24,AI Agent Starter Kit,Southeast Asia,M. Rodriguez,13,150.0,1950.0
+2026-02-25,Azure VM Reserved Instance,Southeast Asia,L. Chen,19,450.0,8550.0
+2026-02-26,Bicep Automation Toolkit,West Europe,M. Rodriguez,23,89.99,2069.77
+2026-02-28,Azure VM Reserved Instance,North Europe,J. Carter,11,450.0,4950.0
+2026-03-02,Cloud Security Audit,West Europe,S. Mengistu,4,1800.0,7200.0
+2026-03-02,Bicep Automation Toolkit,North Europe,A. Bekele,6,89.99,539.94
+2026-03-04,Zero Trust Consulting Package,Southeast Asia,A. Bekele,5,3500.0,17500.0
+2026-03-05,Terraform Landing Zone Template,Southeast Asia,A. Bekele,6,250.0,1500.0
+2026-03-07,Azure VM Reserved Instance,North Europe,A. Bekele,23,450.0,10350.0
+2026-03-09,AI Agent Starter Kit,North Europe,P. Okafor,10,150.0,1500.0
+2026-03-09,AI Agent Starter Kit,East US,A. Bekele,9,150.0,1350.0
+2026-03-12,AI Agent Starter Kit,West US,J. Carter,21,150.0,3150.0
+2026-03-13,Azure VM Reserved Instance,West US,P. Okafor,25,450.0,11250.0
+2026-03-13,AI Agent Starter Kit,East US,M. Rodriguez,8,150.0,1200.0
+2026-03-17,Azure DevOps Retainer,West US,P. Okafor,19,2000.0,38000.0
+2026-03-20,Azure DevOps Retainer,Central US,S. Mengistu,2,2000.0,4000.0
+2026-03-21,Zero Trust Consulting Package,West US,A. Bekele,7,3500.0,24500.0
+2026-03-22,Zero Trust Consulting Package,North Europe,S. Mengistu,9,3500.0,31500.0
+2026-03-26,Azure AI Foundry Credits,West US,J. Carter,17,1200.0,20400.0
+2026-03-27,Bicep Automation Toolkit,Central US,S. Mengistu,21,89.99,1889.79
+2026-03-28,Azure AI Foundry Credits,North Europe,A. Bekele,3,1200.0,3600.0
+2026-03-28,Azure AI Foundry Credits,West US,S. Mengistu,8,1200.0,9600.0
+2026-03-31,Azure AI Foundry Credits,Central US,J. Carter,8,1200.0,9600.0
+2026-04-01,Cloud Security Audit,North Europe,P. Okafor,14,1800.0,25200.0
+2026-04-02,Azure DevOps Retainer,Central US,A. Bekele,20,2000.0,40000.0
+2026-04-08,Azure VM Reserved Instance,West US,S. Mengistu,16,450.0,7200.0
+2026-04-08,Bicep Automation Toolkit,West Europe,J. Carter,20,89.99,1799.8
+2026-04-13,Azure DevOps Retainer,East US,J. Carter,1,2000.0,2000.0
+2026-04-14,Azure VM Reserved Instance,Central US,S. Mengistu,10,450.0,4500.0
+2026-04-15,AI Agent Starter Kit,West US,M. Rodriguez,16,150.0,2400.0
+2026-04-15,Azure DevOps Retainer,Southeast Asia,J. Carter,13,2000.0,26000.0
+2026-04-19,Azure DevOps Retainer,West US,S. Mengistu,9,2000.0,18000.0
+2026-04-21,Azure DevOps Retainer,North Europe,M. Rodriguez,15,2000.0,30000.0
+2026-04-22,Azure DevOps Retainer,Central US,M. Rodriguez,24,2000.0,48000.0
+2026-04-24,Cloud Security Audit,East US,A. Bekele,18,1800.0,32400.0
+2026-04-27,Azure DevOps Retainer,Central US,J. Carter,6,2000.0,12000.0
+2026-04-27,Cloud Security Audit,West Europe,S. Mengistu,21,1800.0,37800.0
+2026-04-28,Azure AI Foundry Credits,East US,L. Chen,13,1200.0,15600.0
+2026-04-28,Azure DevOps Retainer,West US,S. Mengistu,10,2000.0,20000.0
+2026-04-29,Azure DevOps Retainer,North Europe,L. Chen,25,2000.0,50000.0
+2026-05-02,AI Agent Starter Kit,West US,P. Okafor,9,150.0,1350.0
+2026-05-03,Bicep Automation Toolkit,West Europe,A. Bekele,2,89.99,179.98
+2026-05-05,Azure AI Foundry Credits,West Europe,S. Mengistu,25,1200.0,30000.0
+2026-05-10,Cloud Security Audit,North Europe,S. Mengistu,18,1800.0,32400.0
+2026-05-11,AI Agent Starter Kit,East US,A. Bekele,3,150.0,450.0
+2026-05-14,Zero Trust Consulting Package,North Europe,A. Bekele,12,3500.0,42000.0
+2026-05-16,Terraform Landing Zone Template,East US,P. Okafor,18,250.0,4500.0
+2026-05-16,Azure VM Reserved Instance,Central US,M. Rodriguez,20,450.0,9000.0
+2026-05-16,Cloud Security Audit,West Europe,P. Okafor,7,1800.0,12600.0
+2026-05-18,AI Agent Starter Kit,North Europe,S. Mengistu,5,150.0,750.0
+2026-05-21,Azure AI Foundry Credits,Southeast Asia,L. Chen,2,1200.0,2400.0
+2026-05-22,Bicep Automation Toolkit,North Europe,P. Okafor,7,89.99,629.93
+2026-05-23,AI Agent Starter Kit,West US,J. Carter,5,150.0,750.0
+2026-05-24,Terraform Landing Zone Template,West Europe,M. Rodriguez,24,250.0,6000.0
+2026-05-24,Cloud Security Audit,Southeast Asia,S. Mengistu,20,1800.0,36000.0
+2026-05-27,AI Agent Starter Kit,North Europe,M. Rodriguez,8,150.0,1200.0
+2026-05-29,Azure VM Reserved Instance,East US,M. Rodriguez,20,450.0,9000.0
+2026-05-30,Cloud Security Audit,West US,S. Mengistu,12,1800.0,21600.0
+2026-05-30,Bicep Automation Toolkit,West US,A. Bekele,14,89.99,1259.86
+2026-06-04,Azure VM Reserved Instance,West US,P. Okafor,18,450.0,8100.0
+2026-06-05,Azure AI Foundry Credits,West Europe,S. Mengistu,13,1200.0,15600.0
+2026-06-06,Azure VM Reserved Instance,West Europe,J. Carter,22,450.0,9900.0
+2026-06-12,Cloud Security Audit,East US,A. Bekele,9,1800.0,16200.0
+2026-06-12,Azure DevOps Retainer,West US,P. Okafor,3,2000.0,6000.0
+2026-06-13,Azure AI Foundry Credits,Southeast Asia,J. Carter,1,1200.0,1200.0
+2026-06-16,Cloud Security Audit,North Europe,L. Chen,8,1800.0,14400.0
+2026-06-18,Azure DevOps Retainer,West US,P. Okafor,9,2000.0,18000.0
+2026-06-19,Azure AI Foundry Credits,Central US,A. Bekele,5,1200.0,6000.0
+2026-06-20,Azure DevOps Retainer,Central US,P. Okafor,20,2000.0,40000.0
+2026-06-21,Azure DevOps Retainer,West Europe,M. Rodriguez,15,2000.0,30000.0
+2026-06-21,AI Agent Starter Kit,West Europe,S. Mengistu,7,150.0,1050.0
+2026-06-21,Terraform Landing Zone Template,Central US,A. Bekele,15,250.0,3750.0
+2026-06-22,Zero Trust Consulting Package,North Europe,P. Okafor,17,3500.0,59500.0
+2026-06-23,Azure AI Foundry Credits,North Europe,A. Bekele,19,1200.0,22800.0
+2026-06-24,Zero Trust Consulting Package,East US,J. Carter,22,3500.0,77000.0
+2026-06-26,Zero Trust Consulting Package,Central US,A. Bekele,22,3500.0,77000.0
+2026-06-26,Zero Trust Consulting Package,Central US,M. Rodriguez,23,3500.0,80500.0
+2026-06-28,Cloud Security Audit,North Europe,S. Mengistu,16,1800.0,28800.0
