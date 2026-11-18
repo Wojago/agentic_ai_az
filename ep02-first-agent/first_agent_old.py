@@ -2,6 +2,7 @@
 # install packages and import libraries 
 import os 
 from dotenv import load_dotenv 
+
 from azure.ai.agents import AgentsClient
 from azure.ai.agents.models import CodeInterpreterTool
 from azure.identity import DefaultAzureCredential
