@@ -2,7 +2,6 @@
 first_agent.py — EP02: Build Your First Azure AI Agent
 Series: Agentic AI on Azure
 """
-
 # import standard libraries
 import os 
 from dotenv import load_dotenv 
